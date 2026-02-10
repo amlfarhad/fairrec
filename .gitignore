@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.idea/
+.vscode/
+*.swp
+.DS_Store
+data/ml-25m/
+data/*.zip
+*.joblib
