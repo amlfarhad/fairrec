@@ -4,9 +4,9 @@ Most recommendation tutorials optimize for one thing: prediction accuracy. Real 
 
 This project benchmarks 5 progressively complex recommendation models and then demonstrates how post-hoc reranking techniques (MMR, IPS debiasing, fairness-constrained reranking) improve the *quality* of recommendations beyond accuracy.
 
-## Why This Matters
+## System Capabilities
 
-| Problem | Why It's Hard | How This Project Addresses It |
+| Capability | Production Challenge | Implementation |
 |---------|---------------|-------------------------------|
 | **Popularity bias** | Models trained on logged data amplify existing biases — popular items get more exposure → more clicks → more training signal | Inverse Propensity Scoring (IPS) reweights training data to correct for observation bias |
 | **Filter bubbles** | Optimizing for accuracy leads to homogeneous recommendations (10 similar action movies) | MMR reranking balances relevance with intra-list diversity |
